@@ -55,8 +55,6 @@ Personalized_Learning/
 ├── models/                      # Saved ML models
 ├── reports/                     # Generated reports
 ├── plots/                       # Chart outputs
-├── exports/                     # Exported data/files
-├── logs/                        # Logs
 ├── results/                     # Recommendation outputs
 └── README.md
 ```
@@ -186,7 +184,3 @@ This project is structured as a learning/research application. It is useful for:
 - analyzing learning behaviors and skills
 - building recommendation flows for course selection
 - prototyping an educational dashboard and planner
-
-## License
-
-This project is intended for educational and academic use. Please verify license requirements for any datasets or third-party assets included in the repository before redistribution or commercial use.
