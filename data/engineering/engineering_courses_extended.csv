@@ -1,0 +1,156 @@
+course_id,course_name,branch,semester,category,skills,prerequisites,difficulty,credits,course_level,is_core,skill_count,difficulty_normalized
+AIDS001,Statistics for Data Science,AI & Data Science,2,Mathematics,Probability;Statistics;Distributions;Hypothesis Testing,Engineering Mathematics,3,4,Foundation,1,4,0.5
+AIDS006,Linear Algebra for AI,AI & Data Science,2,Mathematics,Matrices;Vectors;Eigenvalues;Linear Transformations,Engineering Mathematics,4,4,Foundation,1,4,0.75
+AIDS011,Applied Statistics,AI & Data Science,3,Mathematics,Probability;Regression;ANOVA;Testing,Statistics for Data Science,4,4,Intermediate,1,4,0.75
+AIDS002,Exploratory Data Analysis,AI & Data Science,4,Data Science,Pandas;NumPy;Visualization;EDA,Python;Statistics,3,3,Intermediate,0,4,0.5
+AIDS007,Data Visualization,AI & Data Science,4,Data Science,Matplotlib;Seaborn;Dashboards;Storytelling,Python;EDA,3,3,Intermediate,0,4,0.5
+AIDS003,Data Mining,AI & Data Science,5,Data Science,Classification;Clustering;Association Rules,DBMS;Statistics,4,4,Intermediate,0,3,0.75
+AIDS012,Feature Engineering,AI & Data Science,5,AI/ML,Feature Selection;Encoding;Scaling;PCA,Machine Learning;Statistics,4,3,Intermediate,0,4,0.75
+AIDS008,Time Series Analysis,AI & Data Science,6,Data Science,Forecasting;ARIMA;Seasonality;Trend,Statistics;Machine Learning,4,3,Advanced,0,4,0.75
+AIDS010,Business Intelligence,AI & Data Science,6,Data Science,BI;Dashboards;ETL;Analytics,DBMS;Data Visualization,3,3,Advanced,0,4,0.5
+AIDS004,Recommender Systems,AI & Data Science,7,AI/ML,Collaborative Filtering;Matrix Factorization;Ranking,Machine Learning;Data Mining,5,3,Advanced,0,3,1.0
+AIDS009,Reinforcement Learning,AI & Data Science,7,AI/ML,Q-Learning;MDP;Policy;Rewards,Machine Learning;Probability,5,3,Advanced,0,4,1.0
+AIDS005,MLOps,AI & Data Science,8,AI/ML,Model Deployment;MLflow;Docker;Monitoring,Machine Learning;DevOps,5,3,Advanced,0,4,1.0
+GEN001,Engineering Mathematics I,All Engineering,1,Mathematics,Calculus;Differential Equations;Matrices,,3,4,Foundation,1,3,0.5
+GEN003,Engineering Physics,All Engineering,1,Science,Mechanics;Optics;Quantum Physics;Semiconductors,,3,4,Foundation,0,4,0.5
+GEN004,Engineering Chemistry,All Engineering,1,Science,Chemistry;Materials;Corrosion;Polymers,,2,4,Foundation,0,4,0.25
+GEN005,Engineering Drawing,All Engineering,1,Design,CAD;Projection;Sections;Technical Drawing,,2,3,Foundation,0,4,0.25
+GEN006,Communication Skills,All Engineering,1,Professional,English;Presentation;Technical Writing;Communication,,1,2,Foundation,0,4,0.0
+GEN012,Programming Fundamentals Lab,All Engineering,1,Programming,C;Python;Problem Solving;Debugging,Programming Fundamentals,2,2,Foundation,1,4,0.25
+GEN014,Constitution of India,All Engineering,1,Professional,Constitution;Civic Rights;Governance,None,1,2,Foundation,0,3,0.0
+GEN002,Engineering Mathematics II,All Engineering,2,Mathematics,Transforms;Vector Calculus;Complex Variables,Engineering Mathematics I,4,4,Foundation,1,3,0.75
+GEN011,Engineering Graphics and CAD,All Engineering,2,Design,AutoCAD;Engineering Graphics;3D Modeling,Engineering Drawing,3,3,Foundation,0,3,0.5
+GEN015,Environmental Studies,All Engineering,2,Environment,Sustainability;Pollution;Climate;Waste Management,None,2,2,Foundation,0,4,0.25
+GEN013,Engineering Mathematics III,All Engineering,3,Mathematics,Numerical Methods;PDE;Probability;Statistics,Engineering Mathematics II,4,4,Intermediate,1,4,0.75
+GEN016,Innovation and Design Thinking,All Engineering,3,Professional,Design Thinking;Ideation;Prototyping;Innovation,Communication Skills,2,3,Intermediate,0,4,0.25
+GEN019,Mini Project,All Engineering,5,Project,Problem Solving;Teamwork;Documentation;Presentation,Core Engineering Courses,3,2,Intermediate,0,4,0.5
+GEN010,Industrial Training,All Engineering,6,Professional,Industry Skills;Teamwork;Problem Solving,Core Engineering Courses,3,2,Advanced,0,3,0.5
+GEN017,Research Methodology,All Engineering,6,Research,Research Design;Literature Review;Statistics;Citation,Statistics;Communication Skills,3,3,Advanced,0,4,0.5
+GEN018,Entrepreneurship Development,All Engineering,6,Management,Business Planning;Finance;Marketing;Startups,Communication Skills,2,3,Advanced,0,4,0.25
+GEN022,Industrial Internship,All Engineering,6,Professional,Industry Practice;Teamwork;Problem Solving;Professional Skills,Core Engineering Courses,3,2,Advanced,0,4,0.5
+GEN007,Entrepreneurship,All Engineering,7,Management,Business Model;Startup;Finance;Innovation,Communication Skills,2,3,Advanced,0,4,0.25
+GEN008,Project Management,All Engineering,7,Management,Agile;Planning;Risk;Scheduling,Communication Skills,3,3,Advanced,0,4,0.5
+GEN021,Technical Seminar,All Engineering,7,Professional,Technical Presentation;Literature Review;Communication,Communication Skills,2,2,Advanced,0,3,0.25
+GEN009,Professional Ethics,All Engineering,8,Professional,Ethics;Professional Responsibility;Sustainability,,1,2,Advanced,0,3,0.0
+GEN020,Major Project,All Engineering,8,Project,Research;Development;Testing;Documentation;Presentation,Core Engineering Courses;Research Methodology,5,8,Advanced,0,5,1.0
+AIML001,Introduction to AI,Artificial Intelligence & ML,3,AI/ML,Search;Agents;Knowledge Representation,Programming;Discrete Mathematics,3,4,Intermediate,0,3,0.5
+AIML006,Mathematics for Machine Learning,Artificial Intelligence & ML,3,Mathematics,Linear Algebra;Probability;Optimization,Engineering Mathematics II,4,4,Intermediate,1,3,0.75
+AIML002,Supervised Learning,Artificial Intelligence & ML,5,AI/ML,Regression;Classification;Scikit-learn,Statistics;Python,4,4,Intermediate,0,3,0.75
+AIML003,Unsupervised Learning,Artificial Intelligence & ML,5,AI/ML,Clustering;PCA;Dimensionality Reduction,Statistics;Python,4,4,Intermediate,0,3,0.75
+AIML004,Computer Vision,Artificial Intelligence & ML,6,AI/ML,OpenCV;CNN;Image Processing,Deep Learning;Linear Algebra,5,4,Advanced,0,3,1.0
+AIML007,Machine Learning Lab,Artificial Intelligence & ML,6,AI/ML,Python;Scikit-learn;Model Evaluation;Pipelines,Machine Learning,4,2,Advanced,0,4,0.75
+AIML008,Deep Learning Lab,Artificial Intelligence & ML,7,AI/ML,PyTorch;TensorFlow;CNN;RNN,Deep Learning,5,2,Advanced,0,4,1.0
+AIML009,Speech Processing,Artificial Intelligence & ML,7,AI/ML,Audio;Speech Recognition;MFCC;NLP,Signals and Systems;NLP,5,3,Advanced,0,4,1.0
+AIML005,Generative AI,Artificial Intelligence & ML,8,AI/ML,LLMs;Transformers;Prompt Engineering;RAG,NLP;Deep Learning,5,4,Advanced,0,4,1.0
+AIML010,AI Ethics and Responsible AI,Artificial Intelligence & ML,8,AI/ML,Fairness;Privacy;Explainability;AI Governance,Artificial Intelligence,2,3,Advanced,0,4,0.25
+CHE001,Chemical Process Calculations,Chemical Engineering,2,Chemical,Material Balance;Energy Balance;Process Calculations,Engineering Mathematics;Chemistry,4,4,Foundation,1,3,0.75
+CHE002,Fluid Flow Operations,Chemical Engineering,3,Chemical,Fluid Mechanics;Pumps;Flow Measurement,Engineering Mathematics,4,4,Intermediate,1,3,0.75
+CHE003,Heat Transfer Operations,Chemical Engineering,4,Chemical,Conduction;Convection;Heat Exchangers,Thermodynamics,5,4,Intermediate,1,3,1.0
+CHE004,Mass Transfer Operations,Chemical Engineering,5,Chemical,Distillation;Absorption;Extraction;Diffusion,Fluid Flow;Heat Transfer,5,4,Intermediate,1,4,1.0
+CHE005,Chemical Reaction Engineering,Chemical Engineering,6,Chemical,Reaction Kinetics;Reactors;Catalysis,Process Calculations;Thermodynamics,5,4,Advanced,1,3,1.0
+CHE006,Process Control,Chemical Engineering,7,Automation,PID;Process Dynamics;Instrumentation,Control Systems;Process Engineering,4,4,Advanced,0,3,0.75
+CE001,Engineering Geology,Civil Engineering,2,Civil,Geology;Minerals;Rocks;Soil,Engineering Chemistry,2,3,Foundation,1,4,0.25
+CE009,Surveying,Civil Engineering,2,Civil,Surveying;Total Station;GPS;Levelling,Engineering Mathematics,3,4,Foundation,1,4,0.5
+CE002,Strength of Materials,Civil Engineering,3,Civil,Stress;Strain;Beams;Torsion,Engineering Mechanics,4,4,Intermediate,1,4,0.75
+CE010,Fluid Mechanics,Civil Engineering,3,Civil,Fluid Flow;Hydraulics;Bernoulli;Pumps,Engineering Mathematics;Physics,4,4,Intermediate,1,4,0.75
+CE003,Structural Analysis,Civil Engineering,4,Civil,Trusses;Frames;Beams;Analysis,Strength of Materials,5,4,Intermediate,1,4,1.0
+CE011,Hydraulics and Hydraulic Machines,Civil Engineering,4,Civil,Turbines;Pumps;Open Channels;Hydraulics,Fluid Mechanics,5,4,Intermediate,1,4,1.0
+CE004,Concrete Technology,Civil Engineering,5,Construction,Concrete;Cement;Mix Design;Testing,Material Science,4,4,Intermediate,1,4,0.75
+CE005,Geotechnical Engineering,Civil Engineering,5,Civil,Soil Mechanics;Foundations;Bearing Capacity,Strength of Materials,5,4,Intermediate,1,3,1.0
+CE006,Transportation Engineering,Civil Engineering,6,Civil,Highways;Traffic;Pavements;Transportation,Surveying;Engineering Mathematics,4,4,Advanced,1,4,0.75
+CE007,Environmental Engineering,Civil Engineering,6,Environment,Water Treatment;Wastewater;Pollution,Chemistry;Fluid Mechanics,4,4,Advanced,0,3,0.75
+CE012,Design of Reinforced Concrete Structures,Civil Engineering,6,Structural,RCC;Beams;Columns;Slabs;IS Codes,Structural Analysis;Concrete Technology,5,4,Advanced,1,5,1.0
+CE013,Steel Structure Design,Civil Engineering,6,Structural,Steel;Connections;Trusses;IS Codes,Structural Analysis,5,4,Advanced,1,4,1.0
+CE014,Quantity Surveying and Estimation,Civil Engineering,6,Construction,Estimation;BOQ;Rate Analysis;Costing,Construction Management,3,3,Advanced,1,4,0.5
+CE017,Water Resources Engineering,Civil Engineering,6,Environment,Hydrology;Dams;Irrigation;Water Management,Fluid Mechanics,4,4,Advanced,0,4,0.75
+CE008,Construction Management,Civil Engineering,7,Management,Project Management;Estimation;Scheduling;BIM,Structural Engineering;Construction,3,3,Advanced,0,4,0.5
+CE015,Building Information Modeling,Civil Engineering,7,Construction,BIM;Revit;3D Modeling;Clash Detection,CAD;Construction Management,4,3,Advanced,1,4,0.75
+CE016,Earthquake Engineering,Civil Engineering,7,Structural,Seismic Design;Earthquakes;Ductility;IS Codes,Structural Analysis,5,3,Advanced,1,4,1.0
+CE018,Urban Planning,Civil Engineering,7,Civil,Town Planning;GIS;Land Use;Smart Cities,Surveying;Transportation Engineering,3,3,Advanced,1,4,0.5
+CSE001,Programming in C,Computer Science Engineering,1,Programming,C;Programming Logic,,2,4,Foundation,1,2,0.25
+CSE002,Object Oriented Programming,Computer Science Engineering,2,Programming,C++;OOP;Classes,Programming in C,3,4,Foundation,1,3,0.5
+CSE003,Data Structures,Computer Science Engineering,3,Programming,C++;Arrays;Linked Lists;Trees;Graphs;Algorithms,Programming in C,4,4,Intermediate,1,6,0.75
+CSE004,Discrete Mathematics,Computer Science Engineering,3,Mathematics,Logic;Sets;Graphs;Combinatorics,Engineering Mathematics I,3,4,Intermediate,1,4,0.5
+CSE005,Database Management Systems,Computer Science Engineering,4,Database,SQL;DBMS;Normalization;Transactions,Data Structures,3,4,Intermediate,1,4,0.5
+CSE008,Web Development,Computer Science Engineering,4,Web,HTML;CSS;JavaScript;HTTP,Programming in C,2,3,Intermediate,0,4,0.25
+CSE021,Design and Analysis of Algorithms,Computer Science Engineering,4,Algorithms,Algorithms;Complexity;Greedy;Dynamic Programming;Graphs,Data Structures,5,4,Intermediate,1,5,1.0
+CSE022,Computer Organization and Architecture,Computer Science Engineering,4,Systems,CPU;Memory;Assembly;I/O;Pipelining,Digital Electronics;Data Structures,4,4,Intermediate,1,5,0.75
+CSE006,Operating Systems,Computer Science Engineering,5,Systems,Processes;Threads;Memory;Linux;Scheduling,Data Structures,4,4,Intermediate,1,5,0.75
+CSE007,Computer Networks,Computer Science Engineering,5,Networking,TCP/IP;Routing;Switching;Network Security,Operating Systems,4,4,Intermediate,1,4,0.75
+CSE009,Software Engineering,Computer Science Engineering,5,Software,SDLC;UML;Agile;Testing;Requirements,OOP,3,3,Intermediate,0,5,0.5
+CSE023,Theory of Computation,Computer Science Engineering,5,Theory,Automata;Regular Expressions;CFG;Turing Machines,Discrete Mathematics,5,4,Intermediate,1,4,1.0
+CSE010,Machine Learning,Computer Science Engineering,6,AI/ML,Python;Machine Learning;Statistics;Pandas;Scikit-learn,Python Programming;Statistics,5,4,Advanced,0,5,1.0
+CSE012,Data Science,Computer Science Engineering,6,Data Science,Python;Statistics;Pandas;NumPy;Visualization,Python Programming;Statistics,5,4,Advanced,0,5,1.0
+CSE014,Cyber Security,Computer Science Engineering,6,Security,Cryptography;Network Security;Ethical Hacking;Linux,Computer Networks;Operating Systems,5,4,Advanced,0,4,1.0
+CSE020,Mobile Application Development,Computer Science Engineering,6,Mobile,Android;Kotlin;APIs;UI Design,OOP;Web Development,3,3,Advanced,0,4,0.5
+CSE024,Compiler Design,Computer Science Engineering,6,Systems,Lexical Analysis;Parsing;Compiler;Code Generation,Theory of Computation;Data Structures,5,4,Advanced,1,4,1.0
+CSE028,Human Computer Interaction,Computer Science Engineering,6,Software,UI/UX;Usability;Prototyping;User Research,Web Development,3,3,Advanced,0,4,0.5
+CSE029,Information and Coding Theory,Computer Science Engineering,6,Theory,Entropy;Hamming Code;Channel Coding;Compression,Discrete Mathematics;Probability,4,3,Advanced,1,4,0.75
+CSE011,Artificial Intelligence,Computer Science Engineering,7,AI/ML,Python;Search;Knowledge Representation;AI,Data Structures;Machine Learning,5,4,Advanced,0,4,1.0
+CSE013,Cloud Computing,Computer Science Engineering,7,Cloud,AWS;Azure;Docker;Virtualization;Linux,Computer Networks;Operating Systems,4,4,Advanced,0,5,0.75
+CSE015,Big Data Analytics,Computer Science Engineering,7,Data Science,Hadoop;Spark;Big Data;Python,Database Management Systems;Data Science,5,4,Advanced,0,4,1.0
+CSE016,DevOps,Computer Science Engineering,7,Software,Git;Docker;CI/CD;Kubernetes;Linux,Cloud Computing;Software Engineering,4,3,Advanced,0,5,0.75
+CSE025,Distributed Systems,Computer Science Engineering,7,Systems,Distributed Computing;Consensus;Replication;Fault Tolerance,Operating Systems;Computer Networks,5,4,Advanced,1,4,1.0
+CSE026,Parallel Computing,Computer Science Engineering,7,Systems,Parallel Algorithms;Multithreading;CUDA;GPU,Algorithms;Operating Systems,5,3,Advanced,1,4,1.0
+CSE027,Information Retrieval,Computer Science Engineering,7,AI/ML,Search Engines;TF-IDF;Ranking;NLP,Data Structures;NLP,4,3,Advanced,0,4,0.75
+CSE030,Parallel and Distributed Databases,Computer Science Engineering,7,Database,Distributed DBMS;Replication;Sharding;NoSQL,DBMS;Computer Networks,5,3,Advanced,1,4,1.0
+CSE017,Natural Language Processing,Computer Science Engineering,8,AI/ML,Python;NLP;Transformers;Text Mining,Machine Learning;Data Science,5,4,Advanced,0,4,1.0
+CSE018,Deep Learning,Computer Science Engineering,8,AI/ML,Python;Neural Networks;CNN;RNN;PyTorch,Machine Learning;Linear Algebra,5,4,Advanced,0,5,1.0
+CSE019,Blockchain Technology,Computer Science Engineering,8,Emerging Technology,Blockchain;Cryptography;Smart Contracts;Solidity,Database Management Systems;Cyber Security,5,3,Advanced,0,4,1.0
+EE001,Circuit Theory,Electrical Engineering,2,Electrical,KCL;KVL;AC Circuits;Network Theorems,Engineering Mathematics,3,4,Foundation,1,4,0.5
+EE007,Electrical Measurements and Instrumentation,Electrical Engineering,3,Electrical,Sensors;Bridges;Measurement;Instrumentation,Circuit Theory,3,4,Intermediate,1,4,0.5
+EE008,Analog and Digital Electronics,Electrical Engineering,3,Electronics,Diodes;Transistors;Logic Gates;Op-Amps,Circuit Theory,4,4,Intermediate,1,4,0.75
+EE002,Electrical Machines,Electrical Engineering,4,Electrical,Transformers;Motors;Generators,Circuit Theory,4,4,Intermediate,1,3,0.75
+EE003,Power Systems,Electrical Engineering,5,Power,Generation;Transmission;Protection;Power Flow,Electrical Machines,5,4,Intermediate,1,4,1.0
+EE004,Power Electronics,Electrical Engineering,5,Power,Converters;Inverters;Thyristors;MOSFET,Electronic Devices;Circuit Theory,5,4,Intermediate,1,4,1.0
+EE005,Control Systems,Electrical Engineering,6,Control,Feedback;Stability;PID;Root Locus,Signals and Systems;Mathematics,4,4,Advanced,0,4,0.75
+EE009,Electrical Drives,Electrical Engineering,6,Electrical,Motor Drives;Converters;Speed Control,Electrical Machines;Power Electronics,5,4,Advanced,1,3,1.0
+EE006,Renewable Energy Systems,Electrical Engineering,7,Energy,Solar;Wind;Energy Storage;Smart Grid,Power Systems;Power Electronics,4,3,Advanced,0,4,0.75
+EE010,High Voltage Engineering,Electrical Engineering,7,Power,Insulation;Breakdown;Testing;HV Systems,Power Systems,5,3,Advanced,1,4,1.0
+EE012,Electric Vehicle Technology,Electrical Engineering,7,Automotive,EV;BMS;Motor Drives;Charging;Battery,Power Electronics;Electrical Machines,5,4,Advanced,0,5,1.0
+EE013,Digital Control Systems,Electrical Engineering,7,Control,Discrete Control;Digital PID;State Space,Control Systems;Signals,5,3,Advanced,0,3,1.0
+EE011,Smart Grid Technology,Electrical Engineering,8,Power,Smart Grid;SCADA;Renewables;Demand Response,Power Systems;IoT,4,3,Advanced,1,4,0.75
+ECE001,Electronic Devices,Electronics & Communication,3,Electronics,Diodes;Transistors;MOSFET;Amplifiers,Basic Electronics,3,4,Intermediate,1,4,0.5
+ECE002,Digital Electronics,Electronics & Communication,3,Electronics,Logic Gates;Flip Flops;Counters;Registers,Basic Electronics,3,4,Intermediate,1,4,0.5
+ECE003,Signals and Systems,Electronics & Communication,4,Signal Processing,Fourier Transform;Laplace Transform;Signals,Engineering Mathematics,4,4,Intermediate,1,3,0.75
+ECE009,Analog Circuits,Electronics & Communication,4,Electronics,Op-Amps;Amplifiers;Oscillators;Filters,Electronic Devices,4,4,Intermediate,1,4,0.75
+ECE013,Electromagnetic Theory,Electronics & Communication,4,Electronics,Maxwell Equations;EM Waves;Transmission Lines,Engineering Mathematics II,5,4,Intermediate,1,3,1.0
+ECE017,Semiconductor Devices,Electronics & Communication,4,Semiconductor,PN Junction;MOSFET;Diodes;Semiconductor Physics,Engineering Physics;Electronic Devices,5,4,Intermediate,0,4,1.0
+ECE004,Digital Signal Processing,Electronics & Communication,5,Signal Processing,DSP;FFT;Filters;MATLAB,Signals and Systems,5,4,Intermediate,1,4,1.0
+ECE010,Microprocessors and Microcontrollers,Electronics & Communication,5,Embedded,8086;ARM;Microcontrollers;Assembly,Digital Electronics;Computer Organization,5,4,Intermediate,1,4,1.0
+ECE011,Antenna and Wave Propagation,Electronics & Communication,5,Communication,Antennas;Propagation;Radiation;Waveguides,Electromagnetic Theory,5,4,Intermediate,1,4,1.0
+ECE012,Communication Systems,Electronics & Communication,5,Communication,AM;FM;Digital Modulation;Receivers,Signals and Systems,4,4,Intermediate,1,4,0.75
+ECE005,Embedded Systems,Electronics & Communication,6,Embedded,Microcontrollers;C;UART;SPI;I2C,Digital Electronics;C Programming,4,4,Advanced,1,5,0.75
+ECE007,Wireless Communication,Electronics & Communication,6,Communication,5G;Modulation;Wireless Networks,Signals and Systems,5,4,Advanced,1,3,1.0
+ECE006,VLSI Design,Electronics & Communication,7,Electronics,CMOS;Verilog;FPGA;VLSI,Digital Electronics,5,4,Advanced,1,4,1.0
+ECE008,IoT Systems,Electronics & Communication,7,IoT,ESP32;Sensors;MQTT;Cloud,Embedded Systems;Networking,4,3,Advanced,0,4,0.75
+ECE014,MEMS and Sensors,Electronics & Communication,7,Embedded,MEMS;Sensors;Actuators;Measurement,Electronic Devices;Embedded Systems,4,3,Advanced,1,4,0.75
+ECE015,FPGA and HDL Design,Electronics & Communication,7,Digital,Verilog;VHDL;FPGA;RTL,Digital Electronics;VLSI Design,5,4,Advanced,0,4,1.0
+ECE016,Advanced Embedded Systems,Electronics & Communication,7,Embedded,RTOS;ARM;IoT;Embedded Linux,Embedded Systems,5,4,Advanced,1,4,1.0
+IT001,IT Fundamentals,Information Technology,1,IT Foundations,Computer Basics;Networking;Operating Systems,,2,4,Foundation,0,3,0.25
+IT002,Python Programming,Information Technology,2,Programming,Python;Functions;OOP;File Handling,Programming Fundamentals,3,4,Foundation,1,4,0.5
+IT006,Object Oriented Programming with Java,Information Technology,3,Programming,Java;OOP;Collections;Exception Handling,Programming Fundamentals,3,4,Intermediate,1,4,0.5
+IT003,Information Security,Information Technology,5,Security,Security;Cryptography;Authentication;Risk,Computer Networks,4,4,Intermediate,0,4,0.75
+IT007,Advanced Web Technologies,Information Technology,5,Web,React;Node.js;REST API;JavaScript,Web Development;OOP,4,4,Intermediate,0,4,0.75
+IT004,Data Warehousing,Information Technology,6,Data Science,ETL;OLAP;Data Warehouse;SQL,DBMS,4,3,Advanced,0,4,0.75
+IT005,Internet of Things,Information Technology,6,IoT,Sensors;MQTT;ESP32;Embedded Systems,Computer Networks;Programming,4,4,Advanced,0,4,0.75
+IT008,Network Management,Information Technology,6,Networking,Network Monitoring;SNMP;Routing;Administration,Computer Networks,4,3,Advanced,1,4,0.75
+IT009,Enterprise Resource Planning,Information Technology,7,Enterprise,ERP;Business Processes;SAP;Enterprise Systems,DBMS;Software Engineering,4,3,Advanced,0,4,0.75
+IT010,Digital Forensics,Information Technology,7,Security,Forensics;Evidence;Incident Response;Linux,Cyber Security;Operating Systems,5,3,Advanced,0,4,1.0
+ME001,Engineering Mechanics,Mechanical Engineering,1,Mechanical,Statics;Dynamics;Forces;Moments,Engineering Mathematics,3,4,Foundation,1,4,0.5
+ME008,Engineering Materials,Mechanical Engineering,2,Materials,Metals;Polymers;Ceramics;Composites,Engineering Chemistry,3,4,Foundation,0,4,0.5
+ME002,Thermodynamics,Mechanical Engineering,3,Mechanical,Thermodynamics;Entropy;Heat Engines,Engineering Physics;Mathematics,4,4,Intermediate,1,3,0.75
+ME003,Fluid Mechanics,Mechanical Engineering,4,Mechanical,Fluid Flow;Bernoulli;Pumps;Turbines,Thermodynamics;Mathematics,4,4,Intermediate,1,4,0.75
+ME004,Manufacturing Processes,Mechanical Engineering,4,Manufacturing,Casting;Welding;Machining;CNC,Engineering Materials,4,4,Intermediate,1,4,0.75
+ME009,Kinematics of Machines,Mechanical Engineering,4,Mechanical,Mechanisms;Velocity;Acceleration;Linkages,Engineering Mechanics,4,4,Intermediate,1,4,0.75
+ME005,CAD/CAM,Mechanical Engineering,5,Design,AutoCAD;SolidWorks;CAM;CNC,Engineering Drawing;Manufacturing,4,4,Intermediate,0,4,0.75
+ME010,Dynamics of Machines,Mechanical Engineering,5,Mechanical,Flywheel;Balancing;Vibration;Gyroscope,Kinematics of Machines,5,4,Intermediate,1,4,1.0
+ME011,Heat Transfer,Mechanical Engineering,5,Thermal,Conduction;Convection;Radiation;Heat Exchangers,Thermodynamics;Fluid Mechanics,5,4,Intermediate,1,4,1.0
+ME012,Internal Combustion Engines,Mechanical Engineering,5,Automotive,IC Engines;Combustion;Performance;Emissions,Thermodynamics,4,4,Intermediate,0,4,0.75
+ME006,Robotics,Mechanical Engineering,6,Robotics,Kinematics;Dynamics;ROS;Sensors,Control Systems;Programming,5,4,Advanced,0,4,1.0
+ME013,Metrology and Quality Control,Mechanical Engineering,6,Manufacturing,Measurement;Tolerances;Quality;Six Sigma,Manufacturing Processes,3,3,Advanced,1,4,0.5
+ME016,Mechatronics,Mechanical Engineering,6,Automation,Sensors;PLC;Microcontrollers;Actuators,Control Systems;Electronics,5,4,Advanced,0,4,1.0
+ME017,Automobile Engineering,Mechanical Engineering,6,Automotive,Vehicles;Powertrain;Brakes;Suspension,Thermodynamics;Mechanics,4,4,Advanced,0,4,0.75
+ME007,Industrial Automation,Mechanical Engineering,7,Automation,PLC;SCADA;Sensors;Robotics,Control Systems;Robotics,4,3,Advanced,0,4,0.75
+ME014,Finite Element Analysis,Mechanical Engineering,7,Design,FEA;ANSYS;Stress Analysis;Meshing,Strength of Materials;CAD,5,4,Advanced,0,4,1.0
+ME015,Additive Manufacturing,Mechanical Engineering,7,Manufacturing,3D Printing;CAD;Materials;Rapid Prototyping,CAD/CAM;Manufacturing,4,3,Advanced,1,4,0.75
