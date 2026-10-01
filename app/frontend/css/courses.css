@@ -1,0 +1,415 @@
+/* =========================================================
+   LEARNAI - COURSES PAGE
+========================================================= */
+
+
+/* =========================================================
+   FILTERS
+========================================================= */
+
+.course-filters {
+    padding: 22px;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(250px, 1fr)
+        230px
+        170px
+        auto;
+
+    align-items: end;
+
+    gap: 16px;
+
+    margin-bottom: 22px;
+}
+
+
+.course-filters label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #344054;
+
+    font-size: 12px;
+
+    font-weight: 650;
+}
+
+
+.search-input-wrapper {
+    position: relative;
+}
+
+
+.search-input-wrapper .form-control {
+    padding-left: 40px;
+}
+
+
+.search-icon {
+    position: absolute;
+
+    left: 14px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: #98a2b3;
+
+    font-size: 18px;
+
+    pointer-events: none;
+
+    z-index: 1;
+}
+
+
+/* =========================================================
+   SUMMARY
+========================================================= */
+
+.course-summary {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+}
+
+
+.course-summary > div {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 6px;
+}
+
+
+.course-summary strong {
+    color: #172033;
+
+    font-size: 16px;
+}
+
+
+.course-summary span {
+    color: #667085;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.courses-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 18px;
+}
+
+
+/* =========================================================
+   COURSE CARD
+========================================================= */
+
+.course-card {
+    padding: 21px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 330px;
+
+    overflow: hidden;
+}
+
+
+.course-card-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-bottom: 16px;
+}
+
+
+.course-id {
+    color: #635bff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: .5px;
+}
+
+
+.course-card h2 {
+    margin-top: 6px;
+
+    color: #172033;
+
+    font-size: 16px;
+
+    line-height: 1.4;
+}
+
+
+.core-badge {
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   COURSE INFO
+========================================================= */
+
+.course-info {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 6px;
+
+    margin-bottom: 17px;
+}
+
+
+.course-info span {
+    padding: 5px 8px;
+
+    border-radius: 6px;
+
+    background: #f5f6f8;
+
+    border: 1px solid #eceef2;
+
+    color: #667085;
+
+    font-size: 10px;
+}
+
+
+.course-description {
+    color: #667085;
+
+    font-size: 12px;
+
+    line-height: 1.6;
+
+    margin-bottom: 16px;
+}
+
+
+/* =========================================================
+   SKILLS
+========================================================= */
+
+.course-skills {
+    margin-bottom: 17px;
+}
+
+
+.course-skills-title {
+    margin-bottom: 7px;
+
+    color: #475467;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: .7px;
+}
+
+
+.skill-tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 5px;
+}
+
+
+.skill-tag {
+    padding: 5px 7px;
+
+    border-radius: 6px;
+
+    background: #f2f4f7;
+
+    color: #475467;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.course-card-footer {
+    margin-top: auto;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #eef0f3;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+}
+
+
+.course-difficulty {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2px;
+}
+
+
+.course-difficulty span {
+    color: #98a2b3;
+
+    font-size: 10px;
+}
+
+
+.course-difficulty strong {
+    color: #344054;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   EMPTY
+========================================================= */
+
+.courses-empty {
+    grid-column: 1 / -1;
+
+    padding: 70px 25px;
+
+    text-align: center;
+}
+
+
+.courses-empty-icon {
+    width: 58px;
+    height: 58px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    background: #f2f4f7;
+
+    color: #667085;
+
+    font-size: 24px;
+}
+
+
+.courses-empty h3 {
+    color: #344054;
+
+    font-size: 17px;
+
+    margin-bottom: 6px;
+}
+
+
+.courses-empty p {
+    color: #667085;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.courses-error {
+    grid-column: 1 / -1;
+
+    padding: 30px;
+
+    border-radius: 14px;
+
+    background: #fff6f6;
+
+    border: 1px solid #f5cccc;
+
+    color: #b42318;
+
+    text-align: center;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .courses-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .course-filters {
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-filters {
+        grid-template-columns: 1fr;
+    }
+
+    .course-summary {
+        align-items: flex-start;
+
+        gap: 12px;
+    }
+
+}

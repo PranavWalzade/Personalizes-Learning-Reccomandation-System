@@ -1,0 +1,204 @@
+.course-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    align-items: stretch;
+    gap: 18px;
+}
+
+.catalog-card.course-card {
+    display: flex;
+    min-width: 0;
+    min-height: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .09);
+    border-radius: 18px;
+    background:
+        radial-gradient(ellipse at 100% 0, rgba(163, 138, 255, .09), transparent 42%),
+        linear-gradient(145deg, rgba(255, 255, 255, .045), rgba(255, 255, 255, .015));
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+    transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+
+.catalog-card.course-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(163, 138, 255, .38);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, .24);
+}
+
+.course-card .catalog-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 14px;
+    min-width: 0;
+    padding: 20px;
+}
+
+.course-card-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.course-card .course-tags {
+    gap: 7px;
+}
+
+.course-card .tag {
+    padding: 4px 9px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.course-code {
+    flex: 0 0 auto;
+    padding: 4px 8px;
+    border: 1px solid rgba(255, 255, 255, .09);
+    border-radius: 7px;
+    color: #b5b5c4;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .04em;
+}
+
+.course-card .course-title {
+    margin: 0;
+    font-family: var(--display);
+    font-size: 18px;
+    font-weight: 650;
+    letter-spacing: -.35px;
+    line-height: 1.35;
+}
+
+.course-card .course-description {
+    display: -webkit-box;
+    overflow: hidden;
+    min-height: 4.5em;
+    margin: 0;
+    color: #a4a5b2;
+    font-size: 12px;
+    line-height: 1.55;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.course-card .course-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 14px;
+    color: #888b9b;
+    font-size: 11px;
+}
+
+.course-match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border: 1px solid rgba(163, 138, 255, .14);
+    border-radius: 10px;
+    background: rgba(163, 138, 255, .06);
+    color: #b9b2cf;
+    font-size: 11px;
+}
+
+.course-match strong {
+    color: #c2afff;
+    font-size: 14px;
+}
+
+.course-match-reason {
+    margin: -8px 0 0;
+    color: #9696a5;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.course-progress {
+    display: grid;
+    gap: 7px;
+}
+
+.course-progress-label {
+    display: flex;
+    justify-content: space-between;
+    color: #a2a3b0;
+    font-size: 11px;
+}
+
+.course-progress-label strong {
+    color: var(--cyan);
+}
+
+.course-progress-track {
+    height: 6px;
+    overflow: hidden;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, .08);
+}
+
+.course-progress-track span {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #9876ff, #82dfe4);
+}
+
+.course-card .catalog-foot {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    min-height: 42px;
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255, 255, 255, .07);
+}
+
+.course-card .catalog-foot > .btn {
+    width: 100%;
+}
+
+.enrollment-actions {
+    display: grid;
+    grid-template-columns: minmax(110px, 1fr) auto auto;
+    align-items: end;
+    gap: 8px;
+    width: 100%;
+}
+
+.enrollment-status {
+    display: grid;
+    gap: 5px;
+    color: #a4a5b2;
+    font-size: 10px;
+}
+
+.enrollment-status select {
+    width: 100%;
+    min-height: 35px;
+    padding: 0 9px;
+    border: 1px solid rgba(255, 255, 255, .12);
+    border-radius: 9px;
+    background: #11141d;
+    color: var(--text);
+}
+
+.enrollment-actions .btn {
+    min-height: 35px;
+    padding-inline: 10px;
+    white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+    .course-card .catalog-body {
+        padding: 16px;
+    }
+
+    .enrollment-actions {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .enrollment-status {
+        grid-column: 1 / -1;
+    }
+}
