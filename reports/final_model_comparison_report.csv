@@ -1,0 +1,5 @@
+rank,model,students_evaluated,precision_at_5,recall_at_5,ndcg_at_5
+1,Matrix Factorization,2368,0.08125,0.40625,0.268964
+2,Popularity Baseline,2368,0.063936,0.319679,0.180409
+3,Neural Collaborative Filtering,2368,0.029139,0.145693,0.091985
+4,User-Based CF,2368,0.035389,0.176943,0.08283

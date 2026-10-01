@@ -1,0 +1,461 @@
+skill,course_count
+python,9
+sensors,7
+testing,5
+linux,5
+statistics,5
+probability,4
+problem solving,4
+pumps,4
+docker,3
+oop,3
+scikit-learn,3
+c,3
+transformers,3
+pandas,3
+graphs,3
+teamwork,3
+presentation,3
+is codes,3
+cnn,3
+nlp,3
+beams,3
+scheduling,3
+cryptography,3
+measurement,3
+diodes,3
+mosfet,3
+microcontrollers,3
+knowledge representation,2
+c++,2
+turbines,2
+autocad,2
+3d modeling,2
+sustainability,2
+pollution,2
+conduction,2
+convection,2
+heat exchangers,2
+prototyping,2
+etl,2
+innovation,2
+documentation,2
+ranking,2
+pytorch,2
+literature review,2
+rnn,2
+sql,2
+finance,2
+estimation,2
+algorithms,2
+agile,2
+fluid flow,2
+materials,2
+risk,2
+polymers,2
+cad,2
+instrumentation,2
+pid,2
+javascript,2
+hydraulics,2
+memory,2
+assembly,2
+matrices,2
+routing,2
+network security,2
+communication,2
+entropy,2
+replication,2
+regression,2
+cnc,2
+bernoulli,2
+transistors,2
+logic gates,2
+op-amps,2
+converters,2
+trusses,2
+motor drives,2
+smart grid,2
+scada,2
+amplifiers,2
+search,2
+filters,2
+arm,2
+bim,2
+radiation,2
+verilog,2
+fpga,2
+esp32,2
+mqtt,2
+actuators,2
+dynamics,2
+plc,2
+numpy,2
+visualization,2
+dashboards,2
+classification,2
+clustering,2
+pca,2
+optics,1
+quantum physics,1
+semiconductors,1
+chemistry,1
+corrosion,1
+projection,1
+sections,1
+english,1
+technical writing,1
+debugging,1
+constitution,1
+civic rights,1
+governance,1
+transforms,1
+vector calculus,1
+complex variables,1
+engineering graphics,1
+climate,1
+waste management,1
+numerical methods,1
+pde,1
+design thinking,1
+ideation,1
+industry skills,1
+research design,1
+citation,1
+business planning,1
+marketing,1
+startups,1
+industry practice,1
+professional skills,1
+business model,1
+startup,1
+planning,1
+technical presentation,1
+ethics,1
+professional responsibility,1
+research,1
+development,1
+agents,1
+linear algebra,1
+optimization,1
+dimensionality reduction,1
+opencv,1
+image processing,1
+model evaluation,1
+pipelines,1
+tensorflow,1
+audio,1
+speech recognition,1
+mfcc,1
+llms,1
+prompt engineering,1
+rag,1
+fairness,1
+privacy,1
+explainability,1
+ai governance,1
+material balance,1
+energy balance,1
+process calculations,1
+fluid mechanics,1
+flow measurement,1
+distillation,1
+absorption,1
+extraction,1
+diffusion,1
+reaction kinetics,1
+reactors,1
+catalysis,1
+process dynamics,1
+geology,1
+minerals,1
+rocks,1
+soil,1
+surveying,1
+total station,1
+gps,1
+levelling,1
+stress,1
+strain,1
+torsion,1
+frames,1
+analysis,1
+open channels,1
+concrete,1
+cement,1
+mix design,1
+soil mechanics,1
+foundations,1
+bearing capacity,1
+highways,1
+traffic,1
+pavements,1
+transportation,1
+water treatment,1
+wastewater,1
+rcc,1
+columns,1
+slabs,1
+steel,1
+connections,1
+boq,1
+rate analysis,1
+costing,1
+hydrology,1
+dams,1
+irrigation,1
+water management,1
+project management,1
+revit,1
+clash detection,1
+seismic design,1
+earthquakes,1
+ductility,1
+town planning,1
+gis,1
+land use,1
+smart cities,1
+programming logic,1
+classes,1
+arrays,1
+linked lists,1
+trees,1
+logic,1
+sets,1
+combinatorics,1
+dbms,1
+normalization,1
+transactions,1
+html,1
+css,1
+technical drawing,1
+http,1
+complexity,1
+greedy,1
+dynamic programming,1
+cpu,1
+distributions,1
+hypothesis testing,1
+i/o,1
+pipelining,1
+processes,1
+threads,1
+vectors,1
+tcp/ip,1
+eigenvalues,1
+switching,1
+linear transformations,1
+sdlc,1
+uml,1
+requirements,1
+automata,1
+regular expressions,1
+cfg,1
+turing machines,1
+machine learning,1
+anova,1
+ethical hacking,1
+android,1
+kotlin,1
+apis,1
+ui design,1
+lexical analysis,1
+parsing,1
+compiler,1
+code generation,1
+ui/ux,1
+usability,1
+user research,1
+arima,1
+hamming code,1
+channel coding,1
+compression,1
+ai,1
+aws,1
+azure,1
+virtualization,1
+hadoop,1
+spark,1
+big data,1
+git,1
+ci/cd,1
+kubernetes,1
+distributed computing,1
+consensus,1
+mechanisms,1
+fault tolerance,1
+parallel algorithms,1
+multithreading,1
+cuda,1
+gpu,1
+search engines,1
+tf-idf,1
+distributed dbms,1
+sharding,1
+nosql,1
+text mining,1
+neural networks,1
+blockchain,1
+smart contracts,1
+solidity,1
+kcl,1
+kvl,1
+ac circuits,1
+network theorems,1
+velocity,1
+bridges,1
+acceleration,1
+linkages,1
+solidworks,1
+cam,1
+flywheel,1
+motors,1
+generators,1
+generation,1
+transmission,1
+protection,1
+power flow,1
+balancing,1
+inverters,1
+thyristors,1
+vibration,1
+feedback,1
+stability,1
+root locus,1
+gyroscope,1
+speed control,1
+solar,1
+wind,1
+energy storage,1
+ic engines,1
+insulation,1
+breakdown,1
+hv systems,1
+ev,1
+bms,1
+charging,1
+battery,1
+discrete control,1
+digital pid,1
+state space,1
+combustion,1
+renewables,1
+demand response,1
+performance,1
+flip flops,1
+counters,1
+emissions,1
+fourier transform,1
+laplace transform,1
+signals,1
+oscillators,1
+kinematics,1
+maxwell equations,1
+em waves,1
+transmission lines,1
+pn junction,1
+semiconductor physics,1
+dsp,1
+fft,1
+matlab,1
+8086,1
+seasonality,1
+trend,1
+antennas,1
+propagation,1
+bi,1
+waveguides,1
+am,1
+fm,1
+digital modulation,1
+receivers,1
+uart,1
+spi,1
+i2c,1
+5g,1
+modulation,1
+wireless networks,1
+cmos,1
+analytics,1
+collaborative filtering,1
+vlsi,1
+matrix factorization,1
+q-learning,1
+cloud,1
+mems,1
+mdp,1
+vhdl,1
+rtl,1
+rtos,1
+iot,1
+embedded linux,1
+computer basics,1
+networking,1
+operating systems,1
+functions,1
+file handling,1
+java,1
+collections,1
+exception handling,1
+security,1
+authentication,1
+react,1
+node.js,1
+registers,1
+olap,1
+data warehouse,1
+embedded systems,1
+network monitoring,1
+snmp,1
+administration,1
+erp,1
+business processes,1
+sap,1
+enterprise systems,1
+forensics,1
+evidence,1
+incident response,1
+statics,1
+policy,1
+forces,1
+moments,1
+metals,1
+ceramics,1
+composites,1
+thermodynamics,1
+heat engines,1
+casting,1
+welding,1
+machining,1
+ros,1
+tolerances,1
+quality,1
+six sigma,1
+rewards,1
+vehicles,1
+powertrain,1
+brakes,1
+suspension,1
+robotics,1
+fea,1
+ansys,1
+stress analysis,1
+meshing,1
+3d printing,1
+rapid prototyping,1
+model deployment,1
+mlflow,1
+eda,1
+matplotlib,1
+seaborn,1
+monitoring,1
+storytelling,1
+calculus,1
+differential equations,1
+association rules,1
+feature selection,1
+encoding,1
+scaling,1
+mechanics,1
+forecasting,1
+rest api,1

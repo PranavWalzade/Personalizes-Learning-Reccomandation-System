@@ -1,0 +1,7 @@
+dataset,field,invalid_values,expected
+student_course_performance,average_score,0,0 to 100
+student_course_performance,pass_rate,0,0 to 1
+student_course_performance,academic_score,0,0 to 1
+student_skill_gap,readiness_score,0,0 to 1
+engineering_courses,difficulty,0,1 to 5
+engineering_courses,credits,0,> 0

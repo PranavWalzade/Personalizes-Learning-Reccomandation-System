@@ -1,0 +1,5 @@
+check,value,expected,status
+Engineering course count,155,155,OK
+Duplicate course IDs,0,0,OK
+Missing course names,0,0,OK
+Courses without skills,0,0,OK

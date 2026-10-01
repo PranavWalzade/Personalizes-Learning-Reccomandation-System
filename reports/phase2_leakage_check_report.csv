@@ -1,0 +1,7 @@
+feature,risk,reason,action
+final_result,HIGH,Final result is an outcome variable and must not be used as an input feature for recommendation.,Exclude from model input features.
+held-out assessment score,HIGH,Using the target course performance while generating recommendations causes target leakage.,Only use historical/training interactions.
+engagement rank,MEDIUM,Global ranking can include information from the evaluation period.,Recalculate engagement features using training data only.
+student_course_performance,MEDIUM,Performance must be split correctly before evaluation.,Never use test interaction information to build student features.
+engineering course catalog,LOW,Course metadata does not contain student outcomes.,Safe to use as item/content features.
+student demographics,LOW,Can be used as contextual features if justified.,Check fairness and avoid unnecessary sensitive attributes.

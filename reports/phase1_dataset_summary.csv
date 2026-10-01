@@ -1,0 +1,9 @@
+dataset,rows,columns,missing_values,duplicate_rows
+assessments,206,6,0,0
+courses,22,3,0,0
+studentAssessment,173912,5,0,0
+studentInfo,32593,12,0,0
+studentRegistration,32593,5,0,0
+studentVle,10655280,6,0,787170
+vle,6364,6,0,0
+engineering_courses,155,13,10,0

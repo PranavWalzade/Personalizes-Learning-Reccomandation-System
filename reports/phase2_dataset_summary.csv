@@ -1,0 +1,11 @@
+dataset,rows,columns,memory_mb
+students,32593,12,16.32
+courses,22,4,0.0
+assessments,206,7,0.05
+student_profile,32593,30,20.79
+course_profile,22,8,0.0
+student_course_performance,25820,20,14.71
+student_skill_profile,32593,34,28.01
+student_course_strength,25820,22,16.26
+student_skill_gap,32593,6,7.62
+engineering_courses,155,13,0.08
